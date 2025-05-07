@@ -53,7 +53,7 @@ class AuthorResource extends Resource
                             ]),
                         self::getContentEditor('bio'),
                         Forms\Components\TextInput::make('github_handle')
-                            ->label(__('filament-blog::filament-blog.github')),
+                            ->label('instagram'),
                         Forms\Components\TextInput::make('twitter_handle')
                             ->label(__('filament-blog::filament-blog.twitter')),
                     ])
